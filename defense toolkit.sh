@@ -15,7 +15,7 @@
             case "$num" in
             1)
                  echo "Netmiko"
-                 sudo apt update && sudo apt install netmiko -y
+                 sudo apt update && sudo apt install python3-netmiko -y
                 ;;
             2)
                 echo "Suricata"
@@ -40,7 +40,7 @@
                 ;;
             A)
                 echo "Install all"
-                sudo apt update && sudo apt install netmiko suricata clamav clamav-daemon rkhunter lynis python3 python3-pip -y
+                sudo apt update && sudo apt install python3-netmiko suricata clamav clamav-daemon rkhunter lynis python3 python3-pip -y
                 sudo pip3 opencanary opencanary[dev]
                 ;;
             Q)
