@@ -41,7 +41,7 @@
             A)
                 echo "Install all"
                 sudo apt update && sudo apt install python3-netmiko suricata clamav clamav-daemon rkhunter lynis python3 python3-pip -y
-                sudo pip3 opencanary opencanary[dev]
+                sudo pip3 install opencanary opencanary[dev]
                 ;;
             Q)
                 echo "Quiting..."
